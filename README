@@ -16,3 +16,7 @@ template.py can be executed directly, and can also be renamed, such as
 just to "template", without issue. If it is moved to a different
 directory, such as a bin/, be sure to copy configuration.py there as
 well.
+
+NOTE: This program is currently simple enough that it works on both
+Python 2 and Python 3. It was developed on Python 2.6 and should also
+work for older versions, at least as far back as Python 2.3.
