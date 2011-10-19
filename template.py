@@ -5,10 +5,11 @@ import configuration # this refers to the local file configuration.py
 
 def usage ():
     print ("Usage: " + sys.argv[0] + " <template> <name>")
-    print ("\ttemplate - the template file to use. If it does not name an " +
-           "existing file, looks in " + configuration.template_dir)
-    print ("\tname - the name to substitute into the template. Also used " +
-           "for the filename of the output, with " + configuration.extension +
+    print ("\ttemplate - the template file to use. If it does not name an\n" +
+           "\texisting file, looks in " + configuration.template_dir)
+    print
+    print ("\tname - the name to substitute into the template. Also used\n" +
+           "\tfor the filename of the output, with " + configuration.extension +
            " added.")
 
 def main ():

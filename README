@@ -1,3 +1,18 @@
-This program is really just the one script, template.py, which uses
-user-written configuration files to create new files according to the
-given structures.
+This is a simple example of how Python can be used to generate new
+files from "code templates."
+
+The file configuration.py contains basic options. They should be
+changed as they refer to specific directories for my machine, as
+demonstrations.
+
+The example template simple-java can be used in the following manner
+with no customization at all:
+
+     $ python template.py code-templates/simple-java Eric
+
+Which will create Eric.java in the directory it is executed from.
+
+template.py can be executed directly, and can also be renamed, such as
+just to "template", without issue. If it is moved to a different
+directory, such as a bin/, be sure to copy configuration.py there as
+well.
