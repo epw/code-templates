@@ -1,0 +1,16 @@
+/** File-level
+ * Javadoc comment.
+ */
+
+import all.java.things.in.the.world.*;
+
+/** Class-level
+ * Javadoc comment.
+ */
+public class $NAME {
+	/**
+	 * Default constructor
+	 */
+	public $NAME () {
+	}
+}
