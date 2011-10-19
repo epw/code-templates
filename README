@@ -8,7 +8,7 @@ demonstrations.
 The example template simple-java can be used in the following manner
 with no customization at all:
 
-     $ python template.py code-templates/simple-java Eric
+     $ python template.py simple-java Eric
 
 Which will create Eric.java in the directory it is executed from.
 
